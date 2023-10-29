@@ -1,5 +1,5 @@
-import { Button } from "../ui/Button";
-import { useState } from "react";
+import Button from "../ui/Button";
+import { useState, useContext } from "react";
 
 const LoginForm: React.FC = () => {
   return (
@@ -32,6 +32,7 @@ const LoginForm: React.FC = () => {
           id="password"
         />
       </div>
+
       <Button text="Login" />
     </form>
   );
